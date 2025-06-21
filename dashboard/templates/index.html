@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Enabled Stethoscope Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Device ID Input -->
+        <div class="device-id-input" style="margin-bottom: 20px;">
+            <label for="deviceId" style="font-weight: bold;">Device ID:</label>
+            <input type="text" id="deviceId" name="deviceId" placeholder="Enter device ID..." style="margin-left: 10px; padding: 4px 8px;" />
+            <br />
+            <small style="color: gray;">Right now connected to a single ESP32 server, its future plan to enter device id to connect to a particular device.</small>
+        </div>
+
+        <!-- Header -->
+        <div class="header">
+            <h1 class="title">Real-Time AI Stethoscope Dashboard</h1>
+            <p class="subtitle">Made with ❤️ by Team Stethogen, a Kolkata-based startup</p>
+        </div>
+
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <!-- Real-Time Audio Graph -->
+            <div class="card large-card">
+                <h2>Real-Time Audio Graph</h2>
+                <div class="graph-container">
+                    <canvas id="audioGraph"></canvas>
+                </div>
+            </div>
+
+            <!-- Simplified Heartbeat Pattern -->
+            <div class="card large-card">
+                <h2>Simplified Heartbeat Pattern</h2>
+                <div class="graph-container">
+                    <canvas id="simplifiedGraph"></canvas>
+                </div>
+            </div>
+
+            <!-- Disease Predictions -->
+            <div class="card">
+                <h2>Disease Predictions</h2>
+                <div id="predictions" class="prediction-list"></div>
+                <div id="most-confident" class="most-confident"></div>
+            </div>
+
+            <!-- Confidence Meter -->
+            <div class="card">
+                <h2>Confidence Meter</h2>
+                <div class="confidence-meter">
+                    <canvas id="speedometer"></canvas>
+                </div>
+            </div>
+
+            <!-- MFCC Visualization -->
+            <div class="card large-card">
+                <h2>MFCC Visualization (AI Innovation)</h2>
+                <p>This project uses both Mel-spectrogram and MFCC features for robust, human-auditory-inspired diagnostics. MFCCs are a gold standard in audio analysis and are rarely used in real-time stethoscope dashboards. This innovation sets our device apart from existing solutions.</p>
+                
+            </div>
+
+            <!-- Pipeline Logs -->
+            <div class="card">
+                <h2>Pipeline Logs</h2>
+                <div id="logs" class="logs-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
