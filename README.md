@@ -1,14 +1,24 @@
 
-# 🎶 **Stethogen: MFCC-Enhanced Tele-Auscultation Platform** 
+#  **Stethogen AI Stethoscope: MFCC-Enhanced Tele-Auscultation Platform** 
 
-> **Next-Gen AI Stethoscope with MFCC & Mel-Spectrogram Fusion for Real-Time, Cloud-Connected Diagnostics**
+ 🧑‍⚕️ Next-Gen AI Stethoscope with MFCC & Mel-Spectrogram Fusion for **✅Real-Time**, ✅**Accurate**, **✅Affordable**, Cloud-Connected Diagnostics
 
- _“Giving AI a doctor’s ear—one MFCC at a time.”_ 🎧🧑‍⚕️
 ---
+
+> _“Giving AI a doctor’s ear—one MFCC at a time.”_ 
+
+---
+<br>
+
+🔴 Product - Advanced development stage (PCB  designing, improving accuracy, extensive data collection & training, fine-tuning)
 
 ## 🌟 Overview
 
 **Stethogen** is an innovative, AI-powered stethoscope platform that leverages advanced audio signal processing and deep learning to revolutionize heart and lung sound diagnostics. Unlike traditional digital stethoscopes, Stethogen fuses **Mel-Frequency Cepstral Coefficients (MFCCs)** and **Mel-spectrograms** for robust, human-auditory-inspired disease detection—setting a new benchmark in telemedicine and smart healthcare devices.
+
+![DFVFE](https://github.com/user-attachments/assets/0ac587c5-dc53-4b2e-895a-e467ce7656f2)
+
+![image](https://github.com/user-attachments/assets/e2b8de29-f718-45ff-8f7b-772a92fa71cd)
 
 ---
 
@@ -31,6 +41,22 @@
   All data and predictions are synced with Firebase for secure, scalable storage and remote access.
 
 ---
+
+![stethogen final](https://github.com/user-attachments/assets/b7da0f5e-e74f-41f3-8eb0-f2bb487c1fe0)
+
+![kfhk](https://github.com/user-attachments/assets/c14ebf9d-27ea-4a1c-8a01-bb9b65a66e2f)
+
+### Initial Model Training:
+
+![image](https://github.com/user-attachments/assets/ecba9704-8556-43e5-bfaa-f8c52165531c)
+
+<br>
+
+### 🀄Dataset Link (Kaggle): https://www.kaggle.com/datasets/arashnic/lung-dataset
+
+<br>
+---
+
 
 ## 🚀 Unique Features & Differentiators
 
@@ -112,7 +138,7 @@ ai-stethoscope/
 ## 🤝 Contributing & Contact
 
 - Contributions, ideas, and collaborations are welcome!
-- For questions or demo requests, contact [soumyadiptadey7@7gmail.com].
+- For questions or demo requests, contact [soumyadiptadey7@gmail.com].
 
 ---
 
@@ -123,11 +149,7 @@ ai-stethoscope/
 - **Transparent, real-time AI** for both patients and clinicians
 - **Open, extensible, and future-proof**
 
----
 
-> _“Giving AI a doctor’s ear—one MFCC at a time.”_ 🎧🧑‍⚕️
-
----
 
 **[GitHub Repo](https://github.com/decode-soumyadipta/Ai-Stethoscope-Innovation)**
 
